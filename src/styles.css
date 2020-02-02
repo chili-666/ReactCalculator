@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calcContainer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to left, #0a3859, #1c5985, #0a3859);
+  border-radius: 10px;
+  border: 5px outset #0065ad;
+  box-shadow: 5px 5px 10px #636363, 7px 7px 12px #969696, 9px 9px 15px #636363;
+  padding: 1rem;
+}
+
+.calcContainer h1,
+h3 {
+  color: #30a8ff;
+  text-shadow: 0 0 1px black;
+}
+
+.btn-group button {
+  width: 23%;
+  background-color: #7883ff;
+  font-size: 2em;
+  margin: 3px;
+  box-shadow: 0px 0px 2px grey;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+.special {
+  background-color: lightgrey !important;
+  color: black !important;
+  text-shadow: none !important;
+}
+
+numButton {
+  width: 20px;
+  background-color: #7883ff;
+  font-size: 2rem;
+  margin: 3px;
+  box-shadow: 0px 0px 2px grey;
+}
+
+.display {
+  background-color: #abc2ac;
+  font-family: "Wallpoet", cursive;
+  line-height: 42px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border-radius: 5px;
+  border: 2px inset #899c8a;
+  color: #4a4d4a;
+  padding: 0px;
+  min-height: 42px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .calc-container {
+    width: 80% !important;
+  }
+
+  .btn-group button {
+    font-size: 0.7rem;
+    width: 20%;
+  }
+}
